@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!------------------------------------------------------------------------------------------------------------ START NAVBAR -->
+    <header class="w-full left-0 top-0 z-10 fixed bg-[#2A2550] text-white shadow-md">
+        <div class="container">
+            <div class="flex py-5 items-center w-full justify-between px-5 md:py-2">
+                <div class="text-lg font-bold">
+                    <h1>PORTFOLIO</h1>
+                </div>
+                <div class="hamburger cursor-pointer md:hidden" id="menu-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </div>
+                <div class="absolute z-10 left-0 top-[4rem] w-full text-lg pb-10 pt-5 md:relative md:top-0 md:p-0 md:w-auto bg-[#2A2550]  md:bg-transparent"
+                    id="menu">
+                    <ul class="flex flex-col w-full items-center md:flex-row md:gap-8 md:px-8 ">
+                        <li class="py-2 hover:border-b-2 md:hover:py-0 "><a href="#home">Home</a></li>
+                        <li class="py-2 hover:border-b-2 md:hover:py-0"><a href="#project">Project</a></li>
+                        <li class="py-2 hover:border-b-2 md:hover:py-0"><a href="#about-me">About Me</a></li>
+                        <li class="py-2 hover:border-b-2 md:hover:py-0"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!------------------------------------------------------------------------------------------------------------- END NAVBAR -->
+
+
+    <!------------------------------------------------------------------------------------------------------- START HERO SECTION -->
+    <section class="w-full bg-[#251D3A] pt-36 pb-10 text-white md:pt-20" id="home">
+        <div class="container">
+            <div class="flex flex-col gap-10 md:grid md:grid-cols-2">
+                <div class="kontent-kiri px-5 md:flex md:flex-col md:justify-center">
+                    <h1 class="text-xl mb-4">Haloo.. perkenalkan saya,</h1>
+                    <h2 class="text-4xl mb-1 font-bold">Muhammad Ikhsan</h2>
+                    <h3 class="font-semibold italic mb-5">Front end Developer</h3>
+                    <p class="mb-10">Lulusan Sistem Informasi Universitas Muhammadiyah, yang menyukai bidang Web
+                        Developer, khususnya
+                        Front-end Developer</p>
+                    <div class="md:shadow-2xl flex gap-5">
+                        <a href="#contact"
+                            class="bg-[#fca311] px-10 py-2 mt-0 rounded-full font-semibold hover:opacity-80">Hubungi
+                            Saya</a>
+                        <a href="https://drive.google.com/file/d/1GGR-PIl506vPMWnagBwGilBd2jqpKEv2/view?usp=sharing" target="_blank"
+                            class="border-black border-2 px-10 py-2 mt-0 rounded-full font-semibold hover:opacity-80">Download
+                            CV</a>
+
+                    </div>
+                </div>
+
+                <div class="kontent-kanan">
+                    <div class="container flex justify-center">
+                        <img src="img/2.jpg" class="w-3/4 rounded-2xl md:w-3/5 shadow-2xl" alt="Muhammad Ikhsan">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------------------------------------------------------------------------------- END HERO SECTION -->
+
+    <!------------------------------------------------------------------------------------------------- START JENJANG PENDIDIKAN -->
+    <section class="w-full text-white bg-[#251D3A] pt-16 ">
+        <div class="flex text-3xl font-bold justify-center mb-8">
+            <h1>JENJANG PENDIDIKAN</h1>
+        </div>
+        <div class="flex w-full flex-col md:grid md:grid-cols-3 md:gap-6 md:container">
+
+            <div class="bg-[#32264e] w-full mb-6 hover:bg-[#493a6b] md:rounded-lg md:shadow-2xl ">
+                <div class="container flex  flex-wrap  flex-col items-center py-10  md:text-center">
+                    <h1>Universitas Muhammadiyah Riau</h1>
+                    <h2>Sistem Informasi</h2>
+                    <h3>2021</h3>
+                </div>
+            </div>
+            <div class="bg-[#32264e] w-full mb-6 hover:bg-[#493a6b] md:rounded-lg md:shadow-2xl ">
+                <div class="container flex  flex-col items-center md:text-center py-10">
+                    <h1>Sekolah Menengah Kejuruan Negeri 1 Bukittinggi</h1>
+                    <h2>Teknik Elektronika Industri</h2>
+                    <h3>2016</h3>
+                </div>
+            </div>
+            <div class="bg-[#32264e] w-full md:mb-6 hover:bg-[#493a6b] md:rounded-lg md:shadow-2xl ">
+                <div class="container flex  flex-col items-center py-10  md:text-center">
+                    <h1>Sekolah Menengah Pertama Negeri 11 Pekanbaru</h1>
+                    <h2>2013</h2>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fca311" fill-opacity="1"
+                d="M0,64L17.1,64C34.3,64,69,64,103,96C137.1,128,171,192,206,202.7C240,213,274,171,309,176C342.9,181,377,235,411,224C445.7,213,480,139,514,128C548.6,117,583,171,617,170.7C651.4,171,686,117,720,122.7C754.3,128,789,192,823,218.7C857.1,245,891,235,926,245.3C960,256,994,288,1029,272C1062.9,256,1097,192,1131,165.3C1165.7,139,1200,149,1234,181.3C1268.6,213,1303,267,1337,288C1371.4,309,1406,299,1423,293.3L1440,288L1440,320L1422.9,320C1405.7,320,1371,320,1337,320C1302.9,320,1269,320,1234,320C1200,320,1166,320,1131,320C1097.1,320,1063,320,1029,320C994.3,320,960,320,926,320C891.4,320,857,320,823,320C788.6,320,754,320,720,320C685.7,320,651,320,617,320C582.9,320,549,320,514,320C480,320,446,320,411,320C377.1,320,343,320,309,320C274.3,320,240,320,206,320C171.4,320,137,320,103,320C68.6,320,34,320,17,320L0,320Z">
+            </path>
+        </svg>
+    </section>
+    <!--------------------------------------------------------------------------------------------------- END JENJANG PENDIDIKAN -->
+
+
+    <!------------------------------------------------------------------------------------------------------- START PROJECT -->
+    <section class="w-full text-black bg-[#fca311] pb-10 " id="project">
+        <div class="container pt-20 pb-20 md:pt-10">
+            <h1 class="text-3xl text-center font-bold pt-5 md:mb-10">MY PROJECT</h1>
+            <div class="flex flex-col md:grid md:grid-cols-3 md:grid-rows-2">
+
+                <div class=" mt-6">
+                    <div class="hover:-translate-y-2  flex-col items-center flex">
+                        <img src="img/web1.png" class="w-3/4 rounded-t-2xl shadow-2xl" alt="">
+                        <h1 class="bg-white w-3/4 text-center rounded-b-lg py-2 font-bold shadow-2xl">Website Portfolio
+                        </h1>
+                    </div>
+                </div>
+                <div class=" mt-6">
+                    <div class="hover:-translate-y-2  flex-col items-center flex">
+                        <img src="img/web2.png" class="w-3/4 rounded-t-2xl shadow-2xl" alt="">
+                        <h1 class="bg-white w-3/4 text-center rounded-b-lg py-2 font-bold shadow-2xl">Website Portfolio
+                        </h1>
+                    </div>
+                </div>
+                <div class=" mt-6">
+                    <div class="hover:-translate-y-2  flex-col items-center flex">
+                        <img src="img/web3.png" class="w-3/4 rounded-t-2xl shadow-2xl" alt="">
+                        <h1 class="bg-white w-3/4 text-center rounded-b-lg py-2 font-bold shadow-2xl">Website Portfolio
+                        </h1>
+                    </div>
+                </div>
+                <div class=" mt-6">
+                    <div class="hover:-translate-y-2  flex-col items-center flex">
+                        <img src="img/web4.png" class="w-3/4 rounded-t-2xl shadow-2xl" alt="">
+                        <h1 class="bg-white w-3/4 text-center rounded-b-lg py-2 font-bold shadow-2xl">Website Portfolio
+                        </h1>
+                    </div>
+                </div>
+                <div class=" mt-6">
+                    <div class="hover:-translate-y-2  flex-col items-center flex">
+                        <img src="img/web5.png" class="w-3/4 rounded-t-2xl shadow-2xl" alt="">
+                        <h1 class="bg-white w-3/4 text-center rounded-b-lg py-2 font-bold shadow-2xl">Website Portfolio
+                        </h1>
+                    </div>
+                </div>
+                <div class=" mt-6">
+                    <div class="hover:-translate-y-2  flex-col items-center flex">
+                        <img src="img/web6.png" class="w-3/4 rounded-t-2xl shadow-2xl" alt="">
+                        <h1 class="bg-white w-3/4 text-center rounded-b-lg py-2 font-bold shadow-2xl">Website Portfolio
+                        </h1>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!------------------------------------------------------------------------------------------------------- END PROJECT -->
+
+    <!--------------------------------------------------------------------------------------------------------- START ABOUT ME -->
+    <section class="w-full text-white bg-[#251D3A] pb-10 " id="about-me">
+        <svg xmlns="http://www.w3.org/2000/svg" class="mb-10" viewBox="0 0 1440 320">
+            <path fill="#fca311" fill-opacity="1" class="shadow-2xl"
+                d="M0,96L10,117.3C20,139,40,181,60,202.7C80,224,100,224,120,213.3C140,203,160,181,180,165.3C200,149,220,139,240,160C260,181,280,235,300,266.7C320,299,340,309,360,314.7C380,320,400,320,420,293.3C440,267,460,213,480,192C500,171,520,181,540,176C560,171,580,149,600,138.7C620,128,640,128,660,128C680,128,700,128,720,128C740,128,760,128,780,128C800,128,820,128,840,154.7C860,181,880,235,900,224C920,213,940,139,960,101.3C980,64,1000,64,1020,80C1040,96,1060,128,1080,117.3C1100,107,1120,53,1140,32C1160,11,1180,21,1200,64C1220,107,1240,181,1260,192C1280,203,1300,149,1320,138.7C1340,128,1360,160,1380,197.3C1400,235,1420,277,1430,298.7L1440,320L1440,0L1430,0C1420,0,1400,0,1380,0C1360,0,1340,0,1320,0C1300,0,1280,0,1260,0C1240,0,1220,0,1200,0C1180,0,1160,0,1140,0C1120,0,1100,0,1080,0C1060,0,1040,0,1020,0C1000,0,980,0,960,0C940,0,920,0,900,0C880,0,860,0,840,0C820,0,800,0,780,0C760,0,740,0,720,0C700,0,680,0,660,0C640,0,620,0,600,0C580,0,560,0,540,0C520,0,500,0,480,0C460,0,440,0,420,0C400,0,380,0,360,0C340,0,320,0,300,0C280,0,260,0,240,0C220,0,200,0,180,0C160,0,140,0,120,0C100,0,80,0,60,0C40,0,20,0,10,0L0,0Z">
+            </path>
+        </svg>
+        <div class="container">
+            <div class="flex flex-col pb-20 md:grid md:grid-cols-2">
+
+                <div class="flex justify-center">
+                    <img src="img/3.jpg" alt="" class="w-3/4 rounded-2xl md:w-3/5 shadow-2xl">
+                </div>
+
+                <div class="flex flex-col mt-10">
+                    <h1 class="text-3xl font-bold pl-6 md:pl-0">ABOUT ME</h1>
+                    <p class="mt-6">
+                        Lulusan Sistem Informasi dari Universitas Muhammadiyah Riau yang energik dan pantang menyerah.
+                        Bisa bekerja secara Tim dan individu. Seorang yang jujur, bertanggung jawab, dan Cekatan
+                    </p>
+                    <div class="flex justify-around ">
+                        <div class=" mt-10">
+                            <p class="py-2">Nama</p>
+                            <p class="py-2">Umur</p>
+                            <p class="py-2">Alamat</p>
+                            <p class="py-2">Email</p>
+                        </div>
+                        <div class="mt-10">
+                            <p class="py-2">Muhammad Ikhsan</p>
+                            <p class="py-2">24 Tahun</p>
+                            <p class="py-2">Pekanbaru, Indonesia</p>
+                            <p class="py-2">ikhsanmhd0610@gmail.com</p>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--------------------------------------------------------------------------------------------------------- END ABOUT ME -->
+
+
+    <!------------------------------------------------------------------------------------------------ START SKILL -->
+    <section class="w-full text-white bg-[#251D3A] pb-10 ">
+        <div class="container">
+            <h1 class="text-center text-3xl font-bold">PROFESSIONAL SKILL</h1>
+            <div
+                class="grid grid-cols-4 grid-row-2 gap-10  items-center px-5 mt-8 pb-20 md:pt-20 md:gap-y-20 md:gap-x-20">
+                <div class="flex justify-center rounded-full shadow-2xl">
+                    <img src="img/html.svg" class="w-14 p-1" alt="">
+                </div>
+                <div class="flex justify-center rounded-full shadow-2xl">
+                    <img src="img/css.svg" class="w-14 p-1" alt="">
+                </div>
+                <div class="flex justify-center rounded-full shadow-2xl">
+                    <img src="img/javascript.svg" class="w-16 p-1" alt="">
+                </div>
+                <div class="flex justify-center  rounded-full shadow-2xl">
+                    <img src="img/tailwind-css.svg" class="w-16 p-1" alt="">
+                </div>
+                <div class="flex justify-center  rounded-full shadow-2xl">
+                    <img src="img/bootstrap.svg" class="w-16 p-1" alt="">
+                </div>
+                <div class="flex justify-center  rounded-full shadow-2xl">
+                    <img src="img/git.svg" class="w-16 p-1" alt="">
+                </div>
+                <div class="flex justify-center  rounded-full shadow-2xl">
+                    <img src="img/react.svg" class="w-16 p-1" alt="">
+                </div>
+                <div class="flex justify-center  rounded-full shadow-2xl">
+                    <img src="img/sass.svg" class="w-16 p-1" alt="">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <!----------------------------------------------------------------------------------------------------------- END SKILL -->
+
+
+    <!-------------------------------------------------------------------- START CONTACT -->
+    <section class="w-full text-white bg-[#251D3A] pb-10 " id="contact">
+        <div class="container">
+            <h1 class="mb-10 text-3xl font-bold text-center">CONTACT</h1>
+            <div class="flex flex-col md:grid md:grid-cols-2 pb-20">
+
+                <div class="flex justify-center">
+                    <img src="img/contact2.svg" class="w-3/4 rounded-2xl md:w-3/5 shadow-2xl" alt="">
+                </div>
+
+                <div class="grid grid-cols-3 px-5 items-center gap-y-5 mt-10">
+                    <div class="flex  justify-center rounded-full hover:bg-white shadow-2xl ">
+                        <a href="https://t.me/isaaan98" target="_blank">
+                            <img src="img/telegram.svg" class=" w-14 p-1" alt="">
+                        </a>
+                    </div>
+                    <div class="flex  justify-center rounded-full hover:bg-white shadow-2xl">
+                        <a href="https://facebook.com/sixyNINE1" target="_blank">
+                            <img src="img/facebook-brands.svg" class="w-14 p-1" alt="">
+                        </a>
+                    </div>
+                    <div class="flex  justify-center rounded-full hover:bg-white shadow-2xl">
+                        <a href="https://www.linkedin.com/in/muhammad-ikhsan-3ba5b91b8/" target="_blank">
+                            <img src="img/linkedin-brands.svg" class="w-14 p-1" alt="">
+                        </a>
+                    </div>
+                    <div class="flex  justify-center rounded-full hover:bg-white shadow-2xl">
+                        <a href="https://twitter.com/isaaan98" target="_blank">
+                            <img src="img/twitter.svg" class="w-14 p-1" alt="">
+                        </a>
+                    </div>
+                    <div class="flex  justify-center rounded-full hover:bg-white shadow-2xl">
+                        <a href="https://instagram.com/isaaan98" target="_blank">
+                            <img src="img/instagram.svg" class="w-14 p-1" alt="">
+                        </a>
+                    </div>
+                    <div class="flex  justify-center hover:bg-white rounded-full shadow-2xl">
+                        <a href="https://github.com/isaaan98" target="_blank">
+                            <img src="img/github.svg" class="w-14 p-1" alt="">
+                        </a>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-------------------------------------------------------------------- END CONTACT -->
+
+    <!-- START FOOTER -->
+    <footer class="w-full text-text-black border-black bg-[#fca311] pb-2  border-t-2 pt-5">
+        <div class="container text-center">
+            <h1> &copy; 2022 | Designed by MUHAMMAD IKHSAN | Using TAILWIND </h1>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+
+    <script>
+        let button = document.querySelector('#menu-button');
+        let menu = document.querySelector('#menu');
+
+
+        button.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>
